@@ -1,0 +1,8 @@
+Package: org.thebigboss.renamefolderfree
+Name: Unrestricted Folders Naming
+Depends: mobilesubstrate, firmware (>= 5.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Rename folders without name, spaces can be included anywhere.
+Author: PoomSmart
+Section: Tweaks
