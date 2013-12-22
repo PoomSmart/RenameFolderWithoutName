@@ -13,7 +13,8 @@
 	SBFolder* folder = MSHookIvar<SBFolder *>(self, "_folder");
 	NSString *text = [textField text];
 	[folder setDisplayName:text];
-	[self setFolderName:text];
+	if ([self respondsToSelector:@selector(setFolderName:)])
+		[self setFolderName:text];
 }
 
 %end
