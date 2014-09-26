@@ -1,5 +1,5 @@
 @interface SBFolder
-@property(retain, nonatomic) NSString* displayName;
+@property(retain, nonatomic) NSString *displayName;
 @end
 
 @interface SBFolderView <UITextFieldDelegate>

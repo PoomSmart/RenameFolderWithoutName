@@ -3,7 +3,6 @@ RenameFolderWithoutName
 
 Freely rename SpringBoard folders.
 
-Tested iOS Version
-=======================
+Support iOS 5+
 
-iOS 5, 6 and 7.
+MIT License.
